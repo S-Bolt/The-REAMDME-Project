@@ -38,9 +38,12 @@ const questions = [
 inquirer
     .prompt(questions)
     .then((data) => {
-        console.log(data)
+        console.log(data);
 
-     
+     //Naming file name
+     const fileName = 'README.md';
+        //calling writetoFile Function and passing filename/data
+     writeToFile(fileName, data);
      });
 
 // TODO: Create a function to write README file
