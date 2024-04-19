@@ -1,8 +1,8 @@
 {
-  "Title": "t",
-  "Description": "t",
-  "Installation": "t",
-  "Usage": "t",
-  "Credits": "t",
-  "License": "MIT"
+  "title": "q",
+  "description": "q",
+  "installation": "q",
+  "usage": "q",
+  "credits": "q",
+  "license": "MIT"
 }

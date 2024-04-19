@@ -5,33 +5,33 @@ const fs = require('fs');
 const questions = [
     {
     type: 'input',
-    name: 'Title',
+    name: 'title',
     message: 'What is the tile of your project?',
 },
 {
     type: 'input',
-    name: 'Description',
+    name: 'description',
     message: 'Please provide a description of your project.  What was your motivation, what problem does it solve, what did you learn ',   
 },
 {
     type: 'input',
     message: 'What are the steps required to install your project?',
-    name: 'Installation',
+    name: 'installation',
 },
 {
     type: 'input',
     message: 'Provide instructions and examples for use:',
-    name: 'Usage',
+    name: 'usage',
 }, 
 {
     type: 'input',
     message: 'List your collaborators, if any, with links to thier Github profiles',
-    name: 'Credits',
+    name: 'credits',
 },
 {
     type: 'list',
     message: 'Choose a licesne for your project',
-    name: 'License',
+    name: 'license',
     choices: ['MIT', 'Apache', 'GPL', 'None'],
 },];
 
@@ -60,7 +60,9 @@ function writeToFile(fileName, data) {
 };
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    console.log('Welcome to the README generator!');
+}
 
 // Function call to initialize app
 init();
