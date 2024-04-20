@@ -1,9 +1,9 @@
 
-  # d
+  # a
 
   ## Description 
 
-  
+  dfa
 
   ## Table of Contents
 
@@ -13,12 +13,13 @@
 
   ## Installation
 
-   kk
+   dfas
 
   ## Usage
 
-   
+   ds
 
-  ## License 
+   ## License 
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  This project is licensed under the MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)license. Click [here](https://opensource.org/licenses/MIT) for more information.
+
