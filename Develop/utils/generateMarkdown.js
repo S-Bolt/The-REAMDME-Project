@@ -37,7 +37,9 @@ function renderLicenseSection(license) {
 function renderContact(githubUsername, email){
   const githubLink = `https://github.com/${githubUsername}`;
 
-  return `if you have any questions, please reach out:
+  return `## Questions/Contact
+  
+  if you have any questions, please reach out:
  
  - [${githubUsername}](${githubLink})
  - Email: ${email}`;
@@ -67,9 +69,9 @@ function generateMarkdown(data) {
 
    ${data.usage}
 
-   ${renderLicenseSection(data.license)}
+ [Video Demo](https://drive.google.com/file/d/1-pLQFq9XgWsw3-6OrWlvNwPcnAi2jlle/view) 
 
-   ## Questions/Contact
+   ${renderLicenseSection(data.license)}
 
    ${renderContact(data.githubUsername, data.email)}
 
