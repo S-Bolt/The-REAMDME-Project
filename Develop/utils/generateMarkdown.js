@@ -30,7 +30,7 @@ function renderLicenseSection(license) {
   };
   return `## License 
 
-  This project is licensed under the ${license} ${renderLicenseBadge(license)}license. Click [here](${renderLicenseLink(license)}) for more information.`;
+  This project is licensed under the ${license} license.${renderLicenseBadge(license)} Click [here](${renderLicenseLink(license)}) for more information.`;
 
 }
 

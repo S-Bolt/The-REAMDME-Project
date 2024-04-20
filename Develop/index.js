@@ -36,18 +36,7 @@ const questions = [
     choices: ['MIT', 'Apache', 'GPL', 'None'],
 },];
 
-inquirer
-    .prompt(questions)
-    .then((data) => {
-        console.log(data);
-    //generate markdown content
-    const readmeContent = generateMarkdown(data);
-    console.log(readmeContent);
-     //Naming file name
-     const fileName = 'README.md';
-        //calling writetoFile Function and passing filename/data
-     writeToFile(fileName, readmeContent);
-     });
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, readmeContent) {
@@ -64,6 +53,19 @@ function writeToFile(fileName, readmeContent) {
 // TODO: Create a function to initialize app
 function init() {
     console.log('Welcome to the README generator!');
+    
+    inquirer
+    .prompt(questions)
+    .then((data) => {
+        console.log(data);
+    //generate markdown content
+    const readmeContent = generateMarkdown(data);
+    console.log(readmeContent);
+     //Naming file name
+     const fileName = 'README.md';
+        //calling writetoFile Function and passing filename/data
+     writeToFile(fileName, readmeContent);
+     });
 }
 
 // Function call to initialize app
