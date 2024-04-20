@@ -1,9 +1,9 @@
 
-  # asfd
+  # fjakds
 
   ## Description 
 
-  sdf
+  fdas
 
   ## Table of Contents
 
@@ -13,11 +13,11 @@
 
   ## Installation
 
-   asdf
+   fads
 
   ## Usage
 
-   asd
+   a
 
    ## License 
 
@@ -27,5 +27,6 @@
 
    if you have any questions, please reach out:
  
- [s-bolt](https://github.com/s-bolt)
+ - [s-bolt](https://github.com/s-bolt)
+ - Email: sambolton.kw@gmail.com
 

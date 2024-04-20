@@ -33,13 +33,15 @@ function renderLicenseSection(license) {
   This project is licensed under the ${license} license.${renderLicenseBadge(license)} Click [here](${renderLicenseLink(license)}) for more information.`;
 
 };
-
-function renderGithub(githubUsername){
+//created this function to provdie contact info
+function renderContact(githubUsername, email){
   const githubLink = `https://github.com/${githubUsername}`;
 
   return `if you have any questions, please reach out:
  
- [${githubUsername}](${githubLink})`;
+ - [${githubUsername}](${githubLink})
+ - Email: ${email}`;
+ 
 };
 
 // TODO: Create a function to generate markdown for README
@@ -69,7 +71,7 @@ function generateMarkdown(data) {
 
    ## Questions/Contact
 
-   ${renderGithub(data.githubUsername)}
+   ${renderContact(data.githubUsername, data.email)}
 
 `;
 }

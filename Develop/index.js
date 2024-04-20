@@ -12,7 +12,7 @@ const questions = [
 {
     type: 'input',
     name: 'description',
-    message: 'Please provide a description of your project.  What was your motivation, what problem does it solve, what did you learn ',   
+    message: 'Please provide a description of your project.  What was your motivation, what problem does it solve, what did you learn? ',   
 },
 {
     type: 'input',
@@ -31,8 +31,13 @@ const questions = [
 },
 {
     type: 'input',
-    message: 'What is your github username',
+    message: 'What is your github username?',
     name: 'githubUsername',
+},
+{
+    type: 'input',
+    message: 'What is your email?',
+    name: 'email',
 },
 {
     type: 'list',
