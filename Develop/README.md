@@ -1,9 +1,9 @@
 
-  # kjfkla;sj
+  # d
 
   ## Description 
 
-  djfkasjfksdjf
+  
 
   ## Table of Contents
 
@@ -11,14 +11,14 @@
   - [Usage](#usage)
   - [License](#license)
 
-  ## Instalation
+  ## Installation
 
-   sda
+   kk
 
   ## Usage
 
-   fsa
+   
 
   ## License 
-  
-  MIT
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

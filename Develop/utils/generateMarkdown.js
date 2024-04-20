@@ -13,8 +13,15 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
+function renderLicenseLink(license) {
+  const licenseLinks = {
+  'MIT': 'https://opensource.org/licenses/MIT',
+  'Apache':'https://opensource.org/licenses/Apache-2.0',
+  'GPL': 'https://www.gnu.org/licenses/gpl-3.0',
+  'None': ''
+};
+return licenseLinks[license] || '';
+}
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
@@ -34,7 +41,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [License](#license)
 
-  ## Instalation
+  ## Installation
 
    ${data.installation}
 
@@ -43,8 +50,8 @@ function generateMarkdown(data) {
    ${data.usage}
 
   ## License 
-  
-  ${data.license}
+
+  ${renderLicenseBadge(data.license)}
 `;
 }
 
