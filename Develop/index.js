@@ -30,6 +30,11 @@ const questions = [
     name: 'credits',
 },
 {
+    type: 'input',
+    message: 'What is your github username',
+    name: 'githubUsername',
+},
+{
     type: 'list',
     message: 'Choose a licesne for your project',
     name: 'license',
@@ -53,7 +58,7 @@ function writeToFile(fileName, readmeContent) {
 // TODO: Create a function to initialize app
 function init() {
     console.log('Welcome to the README generator!');
-    
+
     inquirer
     .prompt(questions)
     .then((data) => {
