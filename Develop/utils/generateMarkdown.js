@@ -71,8 +71,6 @@ function generateMarkdown(data) {
 
  [Video Demo](https://drive.google.com/file/d/1-pLQFq9XgWsw3-6OrWlvNwPcnAi2jlle/view) 
 
- ![Screenshot Descripton](./Develop/utils/images/READMEProjectSS.png)
-
    ${renderLicenseSection(data.license)}
 
    ${renderContact(data.githubUsername, data.email)}
