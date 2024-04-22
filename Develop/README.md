@@ -1,9 +1,9 @@
 
-  # jfalksdfdsaf
+  # The README Genorator
 
   ## Description 
 
-  fd
+  This application allows developers to quickly create an organized and professional quality README without having to go digging for a template.  Answer the prompts and away you go.
 
   ## Table of Contents
 
@@ -13,15 +13,13 @@
 
   ## Installation
 
-   fdasd
+   Download the project files, enter node index.js into comand line.  Fill out answers.
 
   ## Usage
 
-   dfasd
+   
 
  [Video Demo](https://drive.google.com/file/d/1-pLQFq9XgWsw3-6OrWlvNwPcnAi2jlle/view) 
-
- ![Screenshot Descripton](./Develop/utils/images/READMEProjectSS.png)
 
    ## License 
 
@@ -31,6 +29,6 @@
   
   if you have any questions, please reach out:
  
- - [s](https://github.com/s)
- - Email: asfs
+ - [S-bolt](https://github.com/S-bolt)
+ - Email: sambolton.kw@gmail.com
 
